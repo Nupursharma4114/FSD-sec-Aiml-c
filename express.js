@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 9000;
 // Commit 1: Initial comment
-// Commit 1: Nupur Sharma
+// Commit 1: Nupur Sharma from AMU
 // Middleware for parsing JSON
 app.use(express.json());
 
