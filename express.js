@@ -53,7 +53,7 @@ app.put('/api/users/:id', (req, res) => {
   res.json(user);
 });
 
-// DELETE - Remove user
+// DELETE - Remove
 app.delete('/api/users/:id', (req, res) => {
   const userIndex = users.findIndex(u => u.id === parseInt(req.params.id));
 
